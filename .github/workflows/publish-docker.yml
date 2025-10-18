@@ -10,7 +10,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  ORG: openchatui
+  ORG: jayjay_1989
   REPO: openchatui
 
 jobs:
