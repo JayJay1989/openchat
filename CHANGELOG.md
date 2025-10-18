@@ -1,3 +1,10 @@
+## [0.1.20] - 2025-10-18
+
+### PR: [push](https://github.com/JayJay1989/openchat/pull/1)
+
+### Changed
+- Upgraded Next.js dependency from version 15.4.1 to 15.4.7 for improved stability and compatibility. (https://github.com/JayJay1989/openchat/commit/beb94f25a02bc1c9c0b146f1a32b3ad6a11ce29c)
+
 ## [0.1.19] - 2025-10-18
 
 ### PR: [Dev](https://github.com/openchatui/openchat/pull/54)
