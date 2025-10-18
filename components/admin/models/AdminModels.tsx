@@ -134,7 +134,7 @@ export function AdminModels({ session, initialModels = [], initialGroupedModels 
       for (const owner in prev) {
         next[owner] = prev[owner].map(m => {
           if (m.id === modelId) {
-            previous = { name: m.name, profile_image_url: m.meta?.profile_image_url, tags: m.meta?.tags, system_prompt: (m.meta as any)?.system_prompt, params: m.params }
+            previous = { name: m.name, profile_image_url: m.meta?.profile_image_url ?? undefined, tags: m.meta?.tags ?? undefined, system_prompt: (m.meta as any)?.system_prompt, params: m.params }
 
             const nextMeta = { ...m.meta }
             if (data.meta) {
